@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portefolio d'artiste MARSY Kaly</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #2c3e50;
+            font-size: 1.8em;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .gallery-item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            aspect-ratio: 1;
+        }
+
+        .image-container {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .painting-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(1.2);
+            transition: transform 0.5s ease;
+            cursor: pointer;
+        }
+
+        .painting-image:hover {
+            transform: scale(1);
+        }
+
+        @media (max-width: 1200px) {
+            .gallery {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #7f8c8d;
+            font-style: italic;
+            font-size: 0.9em;
+            border-top: 1px solid #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MARSY Kaly</h1>
+        <h2>Portefolio d'artiste</h2>
+        
+        <div class="gallery">
+            <!-- Ligne 1 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="vase.png" alt="Vase" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="thelio.png" alt="thelio" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="aaa.png" alt="Portrait" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="bbb.png" alt="Abstraction" class="painting-image">
+                </div>
+            </div>
+            
+            <!-- Ligne 2 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="ccc.png" alt="Paysage" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="ddd.png" alt="Fleurs" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="eee.png" alt="Architecture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="fff.png" alt="Marine" class="painting-image">
+                </div>
+            </div>
+
+            <!-- Ligne 3 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="ggg.png" alt="Montagne" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="hhh.png" alt="Urbain" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="iii.png" alt="Forêt" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="jjj.png" alt="Animal" class="painting-image">
+                </div>
+            </div>
+
+            <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="kkk.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="lll.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="mmm.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="nnn.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+
+            <!-- Ligne 5 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="ooo.png" alt="" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="ppp.png" alt="" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="qqq.png" alt="" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="rrr.png" alt="" class="painting-image">
+                </div>
+            </div>
+
+                        <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="sss.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="ttt.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="uuu.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="vvv.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+            <!-- Ligne 5 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="xxx.png" alt="" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="yyy.png" alt="" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="zzz.png" alt="" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="aa.png" alt="" class="painting-image">
+                </div>
+            </div>
+                        <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="bb.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="cc.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="dd.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="ee.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+                        <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="ff.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="gg.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="hh.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="ii.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+                        <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="jj.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="kk.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="ll.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="mm.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+                        <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="nn.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="oo.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="pp.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="qq.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+                         <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="rr.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="ss.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="tt.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="uu.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+                        <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="vv.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="xx.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="yy.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="zz.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+                         <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="a.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="b.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="c.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="d.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+                         <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="e.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="f.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="g.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="h.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+                        <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="i.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="j.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="k.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="l.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+                                   <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="m.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="n.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="o.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="p.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+                        <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="q.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="r.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="s.png" alt="Ombre" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="t.png" alt="Couleur" class="painting-image">
+                </div>
+            </div>
+                                    <!-- Ligne 4 -->
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="u.png" alt="Texture" class="painting-image">
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-container">
+                    <img src="x.png" alt="Lumière" class="painting-image">
+                </div>
+            </div>
+            
+
+            </div>
+        </div>
+        
+        <div class="footer">
+            Site réalisé par MARSY Kaly, ESA Tourcoing 2025
+        </div>
+    </div>
+</body>
+</html>
